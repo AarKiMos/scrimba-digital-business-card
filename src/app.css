@@ -1,0 +1,108 @@
+#root {
+    background: #23252C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.App {
+  width: 300px;
+  color: white;
+  background-color: #1a1b21;
+  font-family: Inter, sans;
+  border-radius: 10px;
+}
+
+.main-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.main-component {
+  padding: 10px;
+}
+
+.name {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.designation {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #f3bf99;
+  font-weight: 400;
+}
+
+.web-link {
+  display: block;
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 10px;
+  color: #F5F5F5;
+}
+
+.button-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.button-bar-button {
+  width: 100px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  border-radius: 6px;
+  color: #374151;
+}
+
+#github-button {
+  background-color: #5093E2;
+  border: none;
+  color: #FFFFFF;
+}
+
+.text-section {
+  padding: 10px 30px;
+  font-size: 1rem;
+  color: #F5F5F5;
+}
+.text-section > p {
+    font-size: 0.7rem;
+    line-height: 150%;
+    margin-top: 4px;
+    color: #DCDCDC;
+}
+
+.footer {
+  background-color: #161619;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer > a > * {
+  width: 25px;
+  height: 25px;
+  color: #918E9B;
+
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
